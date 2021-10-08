@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar{
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  background: #2fff7d;
+  font-size: 15px;
+  color: black;
+  overflow: hidden;
+  text-align: center;
+  padding: 10 0px;
+  font-family: 'Bebas Neue', cursive;
+}
+.icon_bar{
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  left: 0;
+  top: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+.menu_bar{
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  background: black;
+}
+
+.container{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 50px auto;
+  text-align: center;
+  overflow: scroll;
+}
+.label_logo{
+  position: relative;
+  width: 80%;
+  height: 35%;
+  border: 2px solid #e3e3e3;
+  overflow: hidden;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: -1px 1px 4px 4px #dddddd, 1px 1px 4px 4px #dddddd;
+  border-radius: 20px;
+}
+.label_logo img{
+  width: 200px;
+  height: 200px;
+}
+span{
+  width: 100%;
+  height: 2px;
+  background: #d8d8d8;
+  display: block;
+}
+.h2{
+  width: 100%;
+  height: 30px;
+  position: relative;
+  background: #2fff7d;
+  font-size: 15px;
+  color: black;
+  overflow: hidden;
+  text-align: center;
+  padding: 10 0px;
+  font-family: 'Bebas Neue', cursive;
+}
+.h2 button{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  position: fixed;
+  color: black;
+  right: 10px;
+  top: 55.5%;
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
+  float: right;
+  background: #c0c0c0;
+  border: none;
+}
+/* KUMPULAN LIST NAMA TABLE DIDATABASE */
+.tbl_menu{
+  width: 100%;
+  height: 270px;
+  padding: 0px;
+  position: fixed;
+  overflow: scroll;
+}
+.tbl_menu li{
+  display: inline;
+  float: left;
+  padding: 0 10px;
+  left: 10px;
+}
+li .list_tbl{
+  width: 70px;
+  height: 70px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20 10px;
+  font-family: 'Bebas Neue', cursive;
+  overflow: hidden;
+  display: block;
+  left: 10px;
+  color: black;
+}
+.user{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  position: relative;
+  border: 2px solid black;
+  font-size: 60px;
+  overflow: hidden;
+  text-align: center;
+  margin: 2px auto;
+  color: black;
+  background: #c5c5c5;
+}
+
+/* slide bar */
+.menu{
+  width: 260px;
+  height: 100vh;
+  position: fixed;
+  background: #68ff93;
+  top: 49px;
+  left: -260px;
+  transition: 0.6s;
+  text-align: center;
+  overflow: hidden;
+}
+#slide_bar.bar{
+  left: 0px;
+}
+.bar_logo{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  font-size: 30px;
+  border-radius: 100px;
+  background-image: url("database.jpg");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position-y: 10px;
+  overflow: hidden;
+  text-align: center;
+  margin: 10px auto;
+  border: 2px solid #e3e3e3;
+  box-shadow: -1px 1px 4px 4px #dddddd, 1px 1px 4px 4px #dddddd;
+}
+.bar_logo h1{
+  margin: 130px auto;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: white;
+}
+
+/* list bar */
+.list_bar{
+  width: 100%;
+  height: 100vh;
+  margin: 30px auto;
+  overflow: hidden;
+  text-align: left;
+}
+.list_bar li{
+  display: block;
+  padding: 10 10px;
+  overflow: hidden;
+}
+.list_bar1{
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+}
+.list_bar1 li{
+  bottom: 0;
+  padding: 10 10px;
+  overflow: hidden;
+}
+
+/* add db */
+.db{
+  position: relative;
+  overflow: scroll;
+  background: rgb(192,255,206);
+  color: black;
+  left: 10px;
+  height: 100px;
+  display: none;
+  transition: 0.9s;
+}
+#db.show{
+  left: 10px;
+  display: block;
+}
+#table.show{
+  left: 10px;
+  display: block;
+}

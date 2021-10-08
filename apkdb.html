@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Database Apk</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="apkdb.css" type="text/css" media="all" />
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1>DATABASE</h1>
+      <div class="icon_bar">
+        <i class='bx bx-menu' onclick="menu()"></i>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="label_logo">
+        <img src="database.jpg" alt="" />
+        <h2>DATABASE</h2>
+      </div>
+      <div class="h2">
+        <h2>TABEL DATABASE</h2>
+        <button type="tambah_tbl"><i class='bx bx-plus'></i></button>
+      </div>
+      <div class="tbl_menu">
+        <li>
+          <a href="#">
+            <div class="list_tbl">
+              <div class="user">
+                <i class='bx bx-data'></i>
+              </div>
+              <label>User & Pass</label>
+            </div>
+          </a>
+        </li>
+      </div>
+    </div>
+    <div id="slide_bar" class="menu">
+      <div class="bar_logo">
+        <h1>DB</h1>
+      </div>
+      <div class="list_bar">
+        <ul>
+          <li onclick="document.getElementById('db').classList.toggle('show')">+ Add Database</li>
+          <ul id="db" class="db">
+            <li>Darman</li>
+          </ul>
+          <li onclick="document.getElementById('table').classList.toggle('show')">+ Add Table</li>
+            <ul id="table" class="db">
+              <li>Darman</li>
+            </ul>
+        </ul><br><br>
+        <div class="list_bar1">
+          <ul>
+            <li>About us</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
